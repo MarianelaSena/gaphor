@@ -11,7 +11,7 @@ from io import StringIO
 import pkg_resources
 
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.misc.xmlwriter import XMLWriter
 from gaphor.storage import storage
 from gaphor.tests.testcase import TestCase

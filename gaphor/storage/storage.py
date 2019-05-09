@@ -18,10 +18,10 @@ import io
 import gaphas
 
 from gaphor import UML
-from gaphor import diagram
+from gaphor import diagrams
 from gaphor.UML.collection import collection
 from gaphor.application import Application, NotInitializedError
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.i18n import _
 from gaphor.storage import parser
 
@@ -118,7 +118,7 @@ def save_generator(writer, factory):
 
     def save_canvasitem(name, value, reference=False):
         """
-        Save attributes and references in a gaphor.diagram.* object.
+        Save attributes and references in a gaphor.diagrams.* object.
         The extra attribute reference can be used to force UML
         """
         # log.debug('saving canvasitem: %s|%s %s' % (name, value, type(value)))
@@ -206,7 +206,7 @@ def load_elements_generator(elements, factory, gaphor_version=None):
         """
         for item in canvasitems:
             cls = getattr(items, item.type)
-            item.element = diagram.create_as(cls, item.id)
+            item.element = diagrams.create_as(cls, item.id)
             canvas.add(item.element, parent=parent)
             assert canvas.get_parent(item.element) is parent
             create_canvasitems(canvas, item.canvasitems, parent=item.element)

@@ -7,9 +7,9 @@ gaphor.adapter package.
 """
 
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.adapters.connectors import RelationshipConnect
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams.interfaces import IConnect
 
 
 class VertexConnect(RelationshipConnect):

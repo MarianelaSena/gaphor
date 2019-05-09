@@ -53,8 +53,8 @@ def orphan_references(factory):
 
     def verify_canvasitem(name, value, reference=False):
         """
-        Verify attributes and references in a gaphor.diagram.* object.
-        The extra attribute reference can be used to force UML 
+        Verify attributes and references in a gaphor.diagrams.* object.
+        The extra attribute reference can be used to force UML
         """
         # log.debug('saving canvasitem: %s|%s %s' % (name, value, type(value)))
         if isinstance(value, collection) or (

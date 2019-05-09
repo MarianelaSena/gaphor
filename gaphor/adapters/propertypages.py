@@ -36,7 +36,7 @@ from gi.repository import Gtk
 
 from gaphor import UML
 from gaphor.core import _, inject, transactional
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.services.elementdispatcher import EventWatcher
 from gaphor.ui.abc import PropertyPageBase
 from gaphor.ui.interfaces import PropertyPages

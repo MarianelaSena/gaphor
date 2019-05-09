@@ -1,6 +1,6 @@
 from gi.repository import Gtk
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.tests import TestCase
 from gaphor.adapters.propertypages import ClassAttributes
 

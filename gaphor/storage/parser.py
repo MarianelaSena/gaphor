@@ -24,7 +24,7 @@ list of real canvasitem objects, not references).
 canvasitem objects can also contain a list of canvasitems (canvasitems can be
 nested). They also have a unique ID by which they have been added to the
 dictionary returned by parse(). Each canvasitem has a type, which maps to a
-class name in the gaphor.diagram module.
+class name in the gaphor.diagrams module.
 
 The generator parse_generator(filename, loader) may be used if the loading
 takes a long time. The yielded values are the percentage of the file read.

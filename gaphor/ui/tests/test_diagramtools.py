@@ -4,7 +4,7 @@ from gi.repository import Gdk
 
 from gaphor import UML
 from gaphor.core import inject
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.tests import TestCase
 from gaphor.ui.abc import UIComponent
 from gaphor.ui.event import DiagramShow

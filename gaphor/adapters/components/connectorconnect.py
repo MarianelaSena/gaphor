@@ -2,13 +2,13 @@
 Connector connections.
 
 Implemented using interface item in assembly connector mode, see
-`gaphor.diagram.connector` module for details.
+`gaphor.diagrams.connector` module for details.
 """
 
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.adapters.connectors import AbstractConnect
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams.interfaces import IConnect
 
 
 class ConnectorConnectBase(AbstractConnect):

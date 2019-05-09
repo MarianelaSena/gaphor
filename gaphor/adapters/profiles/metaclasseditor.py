@@ -7,7 +7,7 @@ from gi.repository import Gtk
 from gaphor import UML
 from gaphor.adapters.propertypages import create_hbox_label, EventWatcher
 from gaphor.core import _, transactional
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.ui.abc import PropertyPageBase
 from gaphor.ui.interfaces import PropertyPages
 

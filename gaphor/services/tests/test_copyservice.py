@@ -1,5 +1,5 @@
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.services.copyservice import CopyService
 from gaphor.application import Application
 from gaphor.tests.testcase import TestCase

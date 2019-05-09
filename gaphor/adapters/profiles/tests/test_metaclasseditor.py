@@ -1,6 +1,6 @@
 from gaphor.tests import TestCase
 from gaphor.adapters.profiles.metaclasseditor import MetaclassNameEditor
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor import UML
 from gi.repository import Gtk
 

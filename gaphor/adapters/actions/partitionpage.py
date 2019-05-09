@@ -6,7 +6,7 @@ from gaphor import UML
 
 from gaphor.adapters.propertypages import NamedItemPropertyPage
 from gaphor.core import _, inject, transactional
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.ui.interfaces import PropertyPages
 
 

@@ -4,7 +4,7 @@ Test transition item and state vertices connections.
 
 from gaphor.tests import TestCase
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 
 
 class TransitionConnectorTestCase(TestCase):

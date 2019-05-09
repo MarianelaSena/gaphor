@@ -11,7 +11,7 @@ from gaphas.item import SE
 from gaphor import UML
 from gaphor.UML.event import DiagramItemCreateEvent
 from gaphor.core import _, inject, radio_action, build_action_group
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.ui.diagramtools import PlacementTool, GroupPlacementTool, DefaultTool
 
 __all__ = ["DiagramToolbox", "TOOLBOX_ACTIONS"]

@@ -10,10 +10,10 @@ from gi.repository import Gdk, Gtk
 from gaphor import UML
 from gaphor.application import Application
 from gaphor.core import inject
-from gaphor.diagram.usecases.actor import ActorItem
-from gaphor.diagram.general.comment import CommentItem
-from gaphor.diagram.general.commentline import CommentLineItem
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams.usecases.actor import ActorItem
+from gaphor.diagrams.general.comment import CommentItem
+from gaphor.diagrams.general.commentline import CommentLineItem
+from gaphor.diagrams.interfaces import IConnect
 from gaphor.ui.diagramtools import ConnectHandleTool, DiagramItemConnector
 from gaphor.ui.event import DiagramShow
 from gaphor.ui.abc import UIComponent

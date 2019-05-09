@@ -14,7 +14,7 @@ import logging
 import random
 
 from gaphor.core import inject, action, build_action_group, transactional
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.abc import Service, ActionProvider
 from gaphor.plugins.diagramlayout import toposort
 from gaphor.ui.abc import UIComponent

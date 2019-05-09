@@ -7,8 +7,8 @@ from functools import singledispatch
 
 from gaphor import UML
 from gaphor.core import inject
-from gaphor.diagram import items
-from gaphor.diagram.interfaces import Editor
+from gaphor.diagrams import items
+from gaphor.diagrams.interfaces import Editor
 from gaphor.misc.rattr import rgetattr, rsetattr
 
 log = logging.getLogger(__name__)

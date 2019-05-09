@@ -9,9 +9,9 @@ import logging
 
 from gaphor import UML
 from gaphor.core import inject
-from gaphor.diagram import items
-from gaphor.diagram.abc import ConnectBase
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams import items
+from gaphor.diagrams.abc import ConnectBase
+from gaphor.diagrams.interfaces import IConnect
 
 logger = logging.getLogger(__name__)
 
@@ -75,7 +75,7 @@ class AbstractConnect(ConnectBase):
         Determine if items can be connected.
 
         The method contains a hack for folded interfaces, see
-        `gaphor.diagram.classes.interface` module documentation for
+        `gaphor.diagrams.classes.interface` module documentation for
         connection to folded interface rules.
 
         Returns `True` by default.

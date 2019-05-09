@@ -4,7 +4,7 @@ from gaphas.examples import Box
 
 from gaphor import UML
 from gaphor.application import Application
-from gaphor.diagram.general.comment import CommentItem
+from gaphor.diagrams.general.comment import CommentItem
 from gaphor.ui.mainwindow import DiagramPage
 
 

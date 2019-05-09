@@ -5,7 +5,7 @@ import logging
 
 from gaphor.tests import TestCase
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.adapters.components.connectorconnect import ConnectorConnectBase
 
 log = logging.getLogger(__name__)

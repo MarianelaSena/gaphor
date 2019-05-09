@@ -3,7 +3,7 @@ Test connections to folded interface.
 """
 
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.tests import TestCase
 
 

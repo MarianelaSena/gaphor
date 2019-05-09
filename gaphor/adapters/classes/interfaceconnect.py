@@ -2,14 +2,14 @@
 Interface item related connections.
 
 The connectors implemented in this module check if connection is possible
-to folded interface, see `gaphor.diagram.classes.interface` documentation
+to folded interface, see `gaphor.diagrams.classes.interface` documentation
 for details.
 """
 
 from gaphor import UML
 
-from gaphor.diagram import items
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams import items
+from gaphor.diagrams.interfaces import IConnect
 from gaphor.adapters.classes.classconnect import (
     DependencyConnect,
     ImplementationConnect,

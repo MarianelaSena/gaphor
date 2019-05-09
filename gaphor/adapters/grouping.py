@@ -19,8 +19,8 @@ import abc
 
 from gaphor import UML
 from gaphor.core import inject
-from gaphor.diagram import items
-from gaphor.diagram.interfaces import Group
+from gaphor.diagrams import items
+from gaphor.diagrams.interfaces import Group
 
 log = logging.getLogger(__name__)
 

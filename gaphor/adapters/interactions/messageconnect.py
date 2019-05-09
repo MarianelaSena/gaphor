@@ -2,8 +2,8 @@
 
 from gaphor.adapters.connectors import AbstractConnect
 from gaphor import UML
-from gaphor.diagram import items
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams import items
+from gaphor.diagrams.interfaces import IConnect
 
 
 @IConnect.register(items.LifelineItem, items.MessageItem)

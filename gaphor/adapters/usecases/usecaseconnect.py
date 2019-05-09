@@ -3,9 +3,9 @@ Use cases related connection adapters.
 """
 
 from gaphor import UML
-from gaphor.diagram import items
+from gaphor.diagrams import items
 from gaphor.adapters.connectors import RelationshipConnect
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams.interfaces import IConnect
 
 
 @IConnect.register(items.UseCaseItem, items.IncludeItem)

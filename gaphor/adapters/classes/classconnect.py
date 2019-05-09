@@ -4,8 +4,8 @@ import logging
 
 from gaphor import UML
 from gaphor.adapters.connectors import UnaryRelationshipConnect, RelationshipConnect
-from gaphor.diagram import items
-from gaphor.diagram.interfaces import IConnect
+from gaphor.diagrams import items
+from gaphor.diagrams.interfaces import IConnect
 
 log = logging.getLogger(__name__)
 

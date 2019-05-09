@@ -27,8 +27,8 @@ from gaphor.core import (
     action,
     build_action_group,
 )
-from gaphor.diagram import get_diagram_item
-from gaphor.diagram.items import DiagramItem
+from gaphor.diagrams import get_diagram_item
+from gaphor.diagrams.items import DiagramItem
 from gaphor.transaction import Transaction
 from gaphor.ui.diagramtoolbox import DiagramToolbox
 from gaphor.ui.event import DiagramSelectionChange
