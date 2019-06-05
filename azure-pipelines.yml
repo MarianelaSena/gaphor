@@ -181,15 +181,21 @@ jobs:
         xvfb-run pytest
       displayName: 'PyTest'
       env:
-        PYTEST_ADDOPTS: "--doctest-modules"
+        PYTEST_ADDOPTS: "--doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html"
 
 
     - task: PublishTestResults@2
       condition: not(canceled())
       inputs:
-        testResultsFiles: junit/test-results.xml
+        testResultsFiles: '**/test-*.xml'
         testRunTitle: Publish Test Results
-    
+
+    - task: PublishCodeCoverageResults@1
+      inputs:
+        codeCoverageTool: Cobertura
+        summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/coverage.xml'
+        reportDirectory: '$(System.DefaultWorkingDirectory)/**/htmlcov'
+
     - script: |
         source venv
         poetry build
