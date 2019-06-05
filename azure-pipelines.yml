@@ -18,6 +18,7 @@ jobs:
           architecture: 'x64'
 
       - script: |
+          python -c "import sys; print(sys.path)"
           pip install pre-commit
           pre-commit install-hooks
           pre-commit run --all-files
